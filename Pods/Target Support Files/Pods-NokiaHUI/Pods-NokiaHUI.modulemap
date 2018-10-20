@@ -1,0 +1,6 @@
+framework module Pods_NokiaHUI {
+  umbrella header "Pods-NokiaHUI-umbrella.h"
+
+  export *
+  module * { export * }
+}
