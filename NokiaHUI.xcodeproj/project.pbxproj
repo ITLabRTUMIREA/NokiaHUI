@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		03BFFEC185A041CFF58916B9 /* Pods_NokiaHUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19AE511EA0F3F8EA5BB68637 /* Pods_NokiaHUI.framework */; };
-		6D5A7CEB217BA65200078281 /* CenturyGothic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6D5A7CE7217BA65200078281 /* CenturyGothic.ttf */; };
-		6D5A7CEC217BA65200078281 /* CenturyGothic-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6D5A7CE8217BA65200078281 /* CenturyGothic-BoldItalic.ttf */; };
-		6D5A7CED217BA65200078281 /* CenturyGothic-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6D5A7CE9217BA65200078281 /* CenturyGothic-Italic.ttf */; };
-		6D5A7CEE217BA65200078281 /* CenturyGothic-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6D5A7CEA217BA65200078281 /* CenturyGothic-Bold.ttf */; };
 		6D5A7CF0217BB33100078281 /* Registration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D5A7CEF217BB33100078281 /* Registration.swift */; };
-		6D5A7CF2217BC2FC00078281 /* Book Antiqua.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6D5A7CF1217BC2FC00078281 /* Book Antiqua.ttf */; };
+		6D5A7CF8217BCB8800078281 /* CenturyGothic-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6D5A7CF3217BCB8800078281 /* CenturyGothic-BoldItalic.ttf */; };
+		6D5A7CF9217BCB8800078281 /* Book Antiqua.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6D5A7CF4217BCB8800078281 /* Book Antiqua.ttf */; };
+		6D5A7CFA217BCB8800078281 /* CenturyGothic-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6D5A7CF5217BCB8800078281 /* CenturyGothic-Italic.ttf */; };
+		6D5A7CFB217BCB8800078281 /* CenturyGothic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6D5A7CF6217BCB8800078281 /* CenturyGothic.ttf */; };
+		6D5A7CFC217BCB8800078281 /* CenturyGothic-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6D5A7CF7217BCB8800078281 /* CenturyGothic-Bold.ttf */; };
 		6DB77684217B91DF007556AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB77683217B91DF007556AF /* AppDelegate.swift */; };
 		6DB77686217B91DF007556AF /* Auth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB77685217B91DF007556AF /* Auth.swift */; };
 		6DB77689217B91DF007556AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DB77687217B91DF007556AF /* Main.storyboard */; };
@@ -23,12 +23,12 @@
 
 /* Begin PBXFileReference section */
 		19AE511EA0F3F8EA5BB68637 /* Pods_NokiaHUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NokiaHUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6D5A7CE7217BA65200078281 /* CenturyGothic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = CenturyGothic.ttf; path = ../../../../Downloads/CenturyGothic/CenturyGothic.ttf; sourceTree = "<group>"; };
-		6D5A7CE8217BA65200078281 /* CenturyGothic-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "CenturyGothic-BoldItalic.ttf"; path = "../../../../Downloads/CenturyGothic/CenturyGothic-BoldItalic.ttf"; sourceTree = "<group>"; };
-		6D5A7CE9217BA65200078281 /* CenturyGothic-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "CenturyGothic-Italic.ttf"; path = "../../../../Downloads/CenturyGothic/CenturyGothic-Italic.ttf"; sourceTree = "<group>"; };
-		6D5A7CEA217BA65200078281 /* CenturyGothic-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "CenturyGothic-Bold.ttf"; path = "../../../../Downloads/CenturyGothic/CenturyGothic-Bold.ttf"; sourceTree = "<group>"; };
 		6D5A7CEF217BB33100078281 /* Registration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Registration.swift; sourceTree = "<group>"; };
-		6D5A7CF1217BC2FC00078281 /* Book Antiqua.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Book Antiqua.ttf"; path = "../../../../Downloads/Book Antiqua.ttf"; sourceTree = "<group>"; };
+		6D5A7CF3217BCB8800078281 /* CenturyGothic-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "CenturyGothic-BoldItalic.ttf"; path = "NokiaHUI/Fonts/CenturyGothic-BoldItalic.ttf"; sourceTree = SOURCE_ROOT; };
+		6D5A7CF4217BCB8800078281 /* Book Antiqua.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Book Antiqua.ttf"; path = "NokiaHUI/Fonts/Book Antiqua.ttf"; sourceTree = SOURCE_ROOT; };
+		6D5A7CF5217BCB8800078281 /* CenturyGothic-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "CenturyGothic-Italic.ttf"; path = "NokiaHUI/Fonts/CenturyGothic-Italic.ttf"; sourceTree = SOURCE_ROOT; };
+		6D5A7CF6217BCB8800078281 /* CenturyGothic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = CenturyGothic.ttf; path = NokiaHUI/Fonts/CenturyGothic.ttf; sourceTree = SOURCE_ROOT; };
+		6D5A7CF7217BCB8800078281 /* CenturyGothic-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "CenturyGothic-Bold.ttf"; path = "NokiaHUI/Fonts/CenturyGothic-Bold.ttf"; sourceTree = SOURCE_ROOT; };
 		6DB77680217B91DF007556AF /* NokiaHUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NokiaHUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DB77683217B91DF007556AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6DB77685217B91DF007556AF /* Auth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Auth.swift; sourceTree = "<group>"; };
@@ -55,11 +55,11 @@
 		6D5A7CE6217BA62E00078281 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
-				6D5A7CF1217BC2FC00078281 /* Book Antiqua.ttf */,
-				6D5A7CEA217BA65200078281 /* CenturyGothic-Bold.ttf */,
-				6D5A7CE8217BA65200078281 /* CenturyGothic-BoldItalic.ttf */,
-				6D5A7CE9217BA65200078281 /* CenturyGothic-Italic.ttf */,
-				6D5A7CE7217BA65200078281 /* CenturyGothic.ttf */,
+				6D5A7CF4217BCB8800078281 /* Book Antiqua.ttf */,
+				6D5A7CF7217BCB8800078281 /* CenturyGothic-Bold.ttf */,
+				6D5A7CF3217BCB8800078281 /* CenturyGothic-BoldItalic.ttf */,
+				6D5A7CF5217BCB8800078281 /* CenturyGothic-Italic.ttf */,
+				6D5A7CF6217BCB8800078281 /* CenturyGothic.ttf */,
 			);
 			name = Fonts;
 			path = "New Group";
@@ -175,14 +175,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D5A7CF2217BC2FC00078281 /* Book Antiqua.ttf in Resources */,
+				6D5A7CFC217BCB8800078281 /* CenturyGothic-Bold.ttf in Resources */,
+				6D5A7CF8217BCB8800078281 /* CenturyGothic-BoldItalic.ttf in Resources */,
+				6D5A7CFA217BCB8800078281 /* CenturyGothic-Italic.ttf in Resources */,
+				6D5A7CFB217BCB8800078281 /* CenturyGothic.ttf in Resources */,
 				6DB7768E217B91E0007556AF /* LaunchScreen.storyboard in Resources */,
-				6D5A7CED217BA65200078281 /* CenturyGothic-Italic.ttf in Resources */,
-				6D5A7CEB217BA65200078281 /* CenturyGothic.ttf in Resources */,
 				6DB7768B217B91E0007556AF /* Assets.xcassets in Resources */,
+				6D5A7CF9217BCB8800078281 /* Book Antiqua.ttf in Resources */,
 				6DB77689217B91DF007556AF /* Main.storyboard in Resources */,
-				6D5A7CEC217BA65200078281 /* CenturyGothic-BoldItalic.ttf in Resources */,
-				6D5A7CEE217BA65200078281 /* CenturyGothic-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
