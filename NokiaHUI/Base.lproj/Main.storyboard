@@ -41,7 +41,7 @@
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" name="CenturyGothic" family="Century Gothic" pointSize="30"/>
-                                        <textInputTraits key="textInputTraits" textContentType="username"/>
+                                        <textInputTraits key="textInputTraits" textContentType="email"/>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" adjustsFontSizeToFit="NO" minimumFontSize="16" translatesAutoresizingMaskIntoConstraints="NO" id="BR6-tG-Wdn" userLabel="Password Field">
                                         <rect key="frame" x="51" y="158" width="288" height="40"/>
@@ -146,7 +146,7 @@
                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="textColor"/>
                                                         <fontDescription key="fontDescription" name="CenturyGothic" family="Century Gothic" pointSize="30"/>
-                                                        <textInputTraits key="textInputTraits" textContentType="username"/>
+                                                        <textInputTraits key="textInputTraits" textContentType="name"/>
                                                     </textField>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="first name" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0XO-zc-HJ0">
                                                         <rect key="frame" x="66" y="8" width="141" height="44"/>
@@ -161,7 +161,7 @@
                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="textColor"/>
                                                         <fontDescription key="fontDescription" name="CenturyGothic" family="Century Gothic" pointSize="30"/>
-                                                        <textInputTraits key="textInputTraits" textContentType="username"/>
+                                                        <textInputTraits key="textInputTraits" textContentType="given-name"/>
                                                     </textField>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="last name" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dje-ep-Mag">
                                                         <rect key="frame" x="66" y="107" width="144" height="44"/>
@@ -197,7 +197,7 @@
                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="textColor"/>
                                                         <fontDescription key="fontDescription" name="CenturyGothic" family="Century Gothic" pointSize="30"/>
-                                                        <textInputTraits key="textInputTraits" textContentType="username"/>
+                                                        <textInputTraits key="textInputTraits" textContentType="email"/>
                                                     </textField>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="e-mail" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fuz-In-5Mj">
                                                         <rect key="frame" x="66" y="366" width="141" height="44"/>
@@ -212,7 +212,7 @@
                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="textColor"/>
                                                         <fontDescription key="fontDescription" name="CenturyGothic" family="Century Gothic" pointSize="30"/>
-                                                        <textInputTraits key="textInputTraits" textContentType="username"/>
+                                                        <textInputTraits key="textInputTraits" secureTextEntry="YES" textContentType="password"/>
                                                     </textField>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="password*" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TCf-nG-kNw">
                                                         <rect key="frame" x="66" y="465" width="152" height="44"/>
@@ -227,7 +227,7 @@
                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="textColor"/>
                                                         <fontDescription key="fontDescription" name="CenturyGothic" family="Century Gothic" pointSize="30"/>
-                                                        <textInputTraits key="textInputTraits" textContentType="username"/>
+                                                        <textInputTraits key="textInputTraits" secureTextEntry="YES" textContentType="password"/>
                                                     </textField>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="confirm password" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9TH-aR-IDo">
                                                         <rect key="frame" x="69" y="564" width="257" height="44"/>
@@ -242,7 +242,7 @@
                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="textColor"/>
                                                         <fontDescription key="fontDescription" name="CenturyGothic" family="Century Gothic" pointSize="30"/>
-                                                        <textInputTraits key="textInputTraits" textContentType="username"/>
+                                                        <textInputTraits key="textInputTraits" textContentType="tel"/>
                                                     </textField>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="phone number" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fmF-G5-ZGB">
                                                         <rect key="frame" x="69" y="663" width="219" height="44"/>
@@ -262,7 +262,7 @@
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                 <dataDetectorType key="dataDetectorTypes" link="YES"/>
                                             </textView>
-                                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rnj-TL-Sk3">
+                                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="rnj-TL-Sk3">
                                                 <rect key="frame" x="37" y="1072" width="49" height="31"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="onTintColor" red="0.092522241180000006" green="0.24439385529999999" blue="0.5686593056" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
