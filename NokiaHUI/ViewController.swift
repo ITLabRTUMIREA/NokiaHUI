@@ -13,7 +13,6 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var LoginField: UITextField!
     
-    @IBOutlet weak var PasswordField: UITextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,12 +21,6 @@ class ViewController: UIViewController {
 
     @IBAction func SingInButton(_ sender: Any) {
         
-        Alamofire.request("http://192.168.80.188:5000/api/values").responseString { response in
-            print("Response String: \(response.result.value)")
-            }
-            .responseJSON { response in
-                print("Response JSON: \(response.result.value)")
-        }
     }
 }
 

@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		03BFFEC185A041CFF58916B9 /* Pods_NokiaHUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19AE511EA0F3F8EA5BB68637 /* Pods_NokiaHUI.framework */; };
+		6D5A7CEB217BA65200078281 /* CenturyGothic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6D5A7CE7217BA65200078281 /* CenturyGothic.ttf */; };
+		6D5A7CEC217BA65200078281 /* CenturyGothic-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6D5A7CE8217BA65200078281 /* CenturyGothic-BoldItalic.ttf */; };
+		6D5A7CED217BA65200078281 /* CenturyGothic-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6D5A7CE9217BA65200078281 /* CenturyGothic-Italic.ttf */; };
+		6D5A7CEE217BA65200078281 /* CenturyGothic-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6D5A7CEA217BA65200078281 /* CenturyGothic-Bold.ttf */; };
 		6DB77684217B91DF007556AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB77683217B91DF007556AF /* AppDelegate.swift */; };
 		6DB77686217B91DF007556AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB77685217B91DF007556AF /* ViewController.swift */; };
 		6DB77689217B91DF007556AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DB77687217B91DF007556AF /* Main.storyboard */; };
@@ -17,6 +21,10 @@
 
 /* Begin PBXFileReference section */
 		19AE511EA0F3F8EA5BB68637 /* Pods_NokiaHUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NokiaHUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D5A7CE7217BA65200078281 /* CenturyGothic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = CenturyGothic.ttf; path = ../../../../Downloads/CenturyGothic/CenturyGothic.ttf; sourceTree = "<group>"; };
+		6D5A7CE8217BA65200078281 /* CenturyGothic-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "CenturyGothic-BoldItalic.ttf"; path = "../../../../Downloads/CenturyGothic/CenturyGothic-BoldItalic.ttf"; sourceTree = "<group>"; };
+		6D5A7CE9217BA65200078281 /* CenturyGothic-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "CenturyGothic-Italic.ttf"; path = "../../../../Downloads/CenturyGothic/CenturyGothic-Italic.ttf"; sourceTree = "<group>"; };
+		6D5A7CEA217BA65200078281 /* CenturyGothic-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "CenturyGothic-Bold.ttf"; path = "../../../../Downloads/CenturyGothic/CenturyGothic-Bold.ttf"; sourceTree = "<group>"; };
 		6DB77680217B91DF007556AF /* NokiaHUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NokiaHUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DB77683217B91DF007556AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6DB77685217B91DF007556AF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -40,6 +48,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6D5A7CE6217BA62E00078281 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				6D5A7CEA217BA65200078281 /* CenturyGothic-Bold.ttf */,
+				6D5A7CE8217BA65200078281 /* CenturyGothic-BoldItalic.ttf */,
+				6D5A7CE9217BA65200078281 /* CenturyGothic-Italic.ttf */,
+				6D5A7CE7217BA65200078281 /* CenturyGothic.ttf */,
+			);
+			name = Fonts;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
 		6DB77677217B91DE007556AF = {
 			isa = PBXGroup;
 			children = (
@@ -61,6 +81,7 @@
 		6DB77682217B91DF007556AF /* NokiaHUI */ = {
 			isa = PBXGroup;
 			children = (
+				6D5A7CE6217BA62E00078281 /* Fonts */,
 				6DB77683217B91DF007556AF /* AppDelegate.swift */,
 				6DB77685217B91DF007556AF /* ViewController.swift */,
 				6DB77687217B91DF007556AF /* Main.storyboard */,
@@ -149,8 +170,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				6DB7768E217B91E0007556AF /* LaunchScreen.storyboard in Resources */,
+				6D5A7CED217BA65200078281 /* CenturyGothic-Italic.ttf in Resources */,
+				6D5A7CEB217BA65200078281 /* CenturyGothic.ttf in Resources */,
 				6DB7768B217B91E0007556AF /* Assets.xcassets in Resources */,
 				6DB77689217B91DF007556AF /* Main.storyboard in Resources */,
+				6D5A7CEC217BA65200078281 /* CenturyGothic-BoldItalic.ttf in Resources */,
+				6D5A7CEE217BA65200078281 /* CenturyGothic-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
