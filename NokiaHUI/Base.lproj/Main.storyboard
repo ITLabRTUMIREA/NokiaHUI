@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="qMt-0b-NXq">
     <device id="retina5_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -23,6 +23,31 @@
         </array>
     </customFonts>
     <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="ag6-rc-4DJ">
+            <objects>
+                <navigationController id="qMt-0b-NXq" sceneMemberID="viewController">
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" id="E43-dc-GvD">
+                        <rect key="frame" x="0.0" y="20" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="barTintColor" red="0.092522241180000006" green="0.24439385529999999" blue="0.5686593056" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
+                        <textAttributes key="largeTitleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="bJb-u5-wIA"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="i3d-Pj-DGM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1430" y="397"/>
+        </scene>
         <!--Auth-->
         <scene sceneID="tne-QT-ifu">
             <objects>
@@ -83,6 +108,7 @@
                                 <state key="normal" title="Sing In" backgroundImage="Image"/>
                                 <connections>
                                     <action selector="SingInButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gO5-O5-yAk"/>
+                                    <segue destination="tBO-5O-sRv" kind="show" identifier="TestSeq" id="rdP-yc-Hxq"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="NokiaLogo" highlightedImage="NokiaLogo" translatesAutoresizingMaskIntoConstraints="NO" id="Rtd-2Q-AUg">
@@ -102,16 +128,18 @@
                                 <fontDescription key="fontDescription" name="CenturyGothic-Bold" family="Century Gothic" pointSize="30"/>
                                 <state key="normal" title="Sing Up" backgroundImage="Image"/>
                                 <connections>
-                                    <action selector="SingInButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kaL-h5-RKo"/>
-                                    <segue destination="J3b-vx-b6m" kind="modal" id="Qyp-GB-uug"/>
+                                    <segue destination="J3b-vx-b6m" kind="show" identifier="RegSeg" id="sfV-vD-Vqc"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <navigationItem key="navigationItem" id="Km1-uz-fYM"/>
+                    <nil key="simulatedTopBarMetrics"/>
                     <connections>
                         <outlet property="LoginField" destination="ER3-dS-H7Q" id="PSe-KH-GBm"/>
+                        <outlet property="PassField" destination="BR6-tG-Wdn" id="nVm-nZ-PHe"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -329,11 +357,136 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="B8l-My-Row" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1011.5942028985507" y="132.06521739130434"/>
+            <point key="canvasLocation" x="1050.7246376811595" y="1120.9239130434783"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="kY5-qQ-19n">
+            <objects>
+                <navigationController id="tBO-5O-sRv" sceneMemberID="viewController">
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" id="Kn0-Oh-bWq">
+                        <rect key="frame" x="0.0" y="20" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="barTintColor" red="0.092522241180000006" green="0.24439385529999999" blue="0.5686593056" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
+                        <textAttributes key="largeTitleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="6KT-rp-awN" kind="relationship" relationship="rootViewController" id="LNj-ZV-IgO"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hzI-5k-sP8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1167" y="-8"/>
+        </scene>
+        <!--Main Menu-->
+        <scene sceneID="26g-2Q-5SO">
+            <objects>
+                <viewController id="6KT-rp-awN" customClass="MainMenu" customModule="NokiaHUI" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="OLK-yV-7a7">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="672"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Edit Profile" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rKq-GO-5w7">
+                                <rect key="frame" x="304" y="282" width="99" height="25"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="CenturyGothic" family="Century Gothic" pointSize="20"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Tsq-4h-AEH">
+                                <rect key="frame" x="0.0" y="314" width="414" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Name, Age" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GLd-JA-cze">
+                                        <rect key="frame" x="123" y="11" width="169" height="37"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="CenturyGothic" family="Century Gothic" pointSize="30"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="locationLogo" translatesAutoresizingMaskIntoConstraints="NO" id="V9x-g9-jyZ">
+                                        <rect key="frame" x="48" y="61" width="32" height="32"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hungary, Budapest" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4W8-gb-v5a">
+                                        <rect key="frame" x="88" y="56" width="278" height="37"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="CenturyGothic" family="Century Gothic" pointSize="30"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.092522241180000006" green="0.24439385529999999" blue="0.5686593056" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Egi-sO-xa1">
+                                <rect key="frame" x="39" y="466" width="336" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="CenturyGothic" family="Century Gothic" pointSize="30"/>
+                                <state key="normal" title="choose specialist" backgroundImage="Button2"/>
+                                <connections>
+                                    <action selector="SingInButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5cr-Zb-m87"/>
+                                    <segue destination="8gs-si-0yT" kind="show" id="wrd-w7-qtH"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dIO-pu-gaQ">
+                                <rect key="frame" x="39" y="535" width="336" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="CenturyGothic" family="Century Gothic" pointSize="30"/>
+                                <state key="normal" title="view appointments" backgroundImage="Button2"/>
+                                <connections>
+                                    <action selector="SingInButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RlJ-Jp-oc8"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mEV-30-h3i">
+                                <rect key="frame" x="39" y="604" width="336" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="CenturyGothic-Bold" family="Century Gothic" pointSize="30"/>
+                                <state key="normal" title="ambulance" backgroundImage="ButtonRed"/>
+                                <connections>
+                                    <action selector="SingInButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qyl-fb-iPV"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="Nps-kx-wXw"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Main Menu" id="Chb-N1-0dA"/>
+                    <connections>
+                        <outlet property="NameAndAgeUser" destination="GLd-JA-cze" id="Qcy-IS-oYg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ABv-hr-g95" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2081" y="-8"/>
+        </scene>
+        <!--Choose specialist-->
+        <scene sceneID="8KF-lF-kN4">
+            <objects>
+                <viewController id="8gs-si-0yT" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="XTi-cv-eBU">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="672"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="fUu-7n-ILC"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Choose specialist" id="kZ7-GF-Iy1"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wIw-mQ-B4f" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3059" y="-681"/>
         </scene>
     </scenes>
     <resources>
+        <image name="Button2" width="112" height="16"/>
+        <image name="ButtonRed" width="112" height="16"/>
         <image name="Image" width="67.333335876464844" height="16.333333969116211"/>
         <image name="NokiaLogo" width="113" height="33.333332061767578"/>
+        <image name="locationLogo" width="10.666666984558105" height="10.666666984558105"/>
     </resources>
 </document>

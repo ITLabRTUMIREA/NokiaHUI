@@ -34,9 +34,9 @@ class Registration : UIViewController, UIPickerViewDelegate, UIPickerViewDataSou
     func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
         return sex[row]
     }
+
     
-    @IBAction func SingUpButton(_ sender: Any) {
-        
+    @IBAction func testCancel(_ sender: Any) {
+       
     }
-    
 }

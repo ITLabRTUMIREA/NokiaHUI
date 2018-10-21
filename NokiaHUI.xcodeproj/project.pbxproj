@@ -14,6 +14,8 @@
 		6D5A7CFA217BCB8800078281 /* CenturyGothic-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6D5A7CF5217BCB8800078281 /* CenturyGothic-Italic.ttf */; };
 		6D5A7CFB217BCB8800078281 /* CenturyGothic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6D5A7CF6217BCB8800078281 /* CenturyGothic.ttf */; };
 		6D5A7CFC217BCB8800078281 /* CenturyGothic-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6D5A7CF7217BCB8800078281 /* CenturyGothic-Bold.ttf */; };
+		6D5A7CFE217BDA5100078281 /* ServerSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D5A7CFD217BDA5100078281 /* ServerSetting.swift */; };
+		6D5A7D00217BEA7400078281 /* MainMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D5A7CFF217BEA7400078281 /* MainMenu.swift */; };
 		6DB77684217B91DF007556AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB77683217B91DF007556AF /* AppDelegate.swift */; };
 		6DB77686217B91DF007556AF /* Auth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB77685217B91DF007556AF /* Auth.swift */; };
 		6DB77689217B91DF007556AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DB77687217B91DF007556AF /* Main.storyboard */; };
@@ -29,6 +31,8 @@
 		6D5A7CF5217BCB8800078281 /* CenturyGothic-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "CenturyGothic-Italic.ttf"; path = "NokiaHUI/Fonts/CenturyGothic-Italic.ttf"; sourceTree = SOURCE_ROOT; };
 		6D5A7CF6217BCB8800078281 /* CenturyGothic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = CenturyGothic.ttf; path = NokiaHUI/Fonts/CenturyGothic.ttf; sourceTree = SOURCE_ROOT; };
 		6D5A7CF7217BCB8800078281 /* CenturyGothic-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "CenturyGothic-Bold.ttf"; path = "NokiaHUI/Fonts/CenturyGothic-Bold.ttf"; sourceTree = SOURCE_ROOT; };
+		6D5A7CFD217BDA5100078281 /* ServerSetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerSetting.swift; sourceTree = "<group>"; };
+		6D5A7CFF217BEA7400078281 /* MainMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenu.swift; sourceTree = "<group>"; };
 		6DB77680217B91DF007556AF /* NokiaHUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NokiaHUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DB77683217B91DF007556AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6DB77685217B91DF007556AF /* Auth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Auth.swift; sourceTree = "<group>"; };
@@ -94,6 +98,8 @@
 				6DB7768C217B91E0007556AF /* LaunchScreen.storyboard */,
 				6DB7768F217B91E0007556AF /* Info.plist */,
 				6D5A7CEF217BB33100078281 /* Registration.swift */,
+				6D5A7CFD217BDA5100078281 /* ServerSetting.swift */,
+				6D5A7CFF217BEA7400078281 /* MainMenu.swift */,
 			);
 			path = NokiaHUI;
 			sourceTree = "<group>";
@@ -240,9 +246,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D5A7D00217BEA7400078281 /* MainMenu.swift in Sources */,
 				6DB77686217B91DF007556AF /* Auth.swift in Sources */,
 				6D5A7CF0217BB33100078281 /* Registration.swift in Sources */,
 				6DB77684217B91DF007556AF /* AppDelegate.swift in Sources */,
+				6D5A7CFE217BDA5100078281 /* ServerSetting.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
