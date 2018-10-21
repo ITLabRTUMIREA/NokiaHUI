@@ -46,7 +46,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="i3d-Pj-DGM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1430" y="397"/>
+            <point key="canvasLocation" x="-1087" y="-8"/>
         </scene>
         <!--Auth-->
         <scene sceneID="tne-QT-ifu">
@@ -144,7 +144,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="136.23188405797103" y="132.88043478260872"/>
+            <point key="canvasLocation" x="103" y="-8"/>
         </scene>
         <!--Registration-->
         <scene sceneID="Kde-hN-kXw">
@@ -314,6 +314,7 @@
                                                 <state key="normal" title="Sing Up" backgroundImage="Image"/>
                                                 <connections>
                                                     <action selector="SingUpButton:" destination="J3b-vx-b6m" eventType="touchUpInside" id="cR7-Ri-aqG"/>
+                                                    <segue destination="tBO-5O-sRv" kind="show" id="COW-nZ-qEC"/>
                                                 </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Junction 2018" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ngd-pr-XcM">
@@ -357,7 +358,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="B8l-My-Row" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="136" y="1301"/>
+            <point key="canvasLocation" x="103" y="1224"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="kY5-qQ-19n">
@@ -384,7 +385,7 @@
             </objects>
             <point key="canvasLocation" x="1167" y="-8"/>
         </scene>
-        <!--Main Menu-->
+        <!--User-->
         <scene sceneID="26g-2Q-5SO">
             <objects>
                 <viewController id="6KT-rp-awN" customClass="MainMenu" customModule="NokiaHUI" customModuleProvider="target" sceneMemberID="viewController">
@@ -441,6 +442,7 @@
                                 <state key="normal" title="view appointments" backgroundImage="Button2"/>
                                 <connections>
                                     <action selector="SingInButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RlJ-Jp-oc8"/>
+                                    <segue destination="pFs-bS-ZTM" kind="show" id="dYH-aH-sds"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mEV-30-h3i">
@@ -450,6 +452,7 @@
                                 <state key="normal" title="ambulance" backgroundImage="ButtonRed"/>
                                 <connections>
                                     <action selector="SingInButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qyl-fb-iPV"/>
+                                    <segue destination="Zdf-q5-KWh" kind="show" id="Iey-yg-naa"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image-1" translatesAutoresizingMaskIntoConstraints="NO" id="UEb-VL-ZMa">
@@ -460,7 +463,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="Nps-kx-wXw"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Main Menu" id="Chb-N1-0dA"/>
+                    <navigationItem key="navigationItem" title="User" id="Chb-N1-0dA"/>
                     <connections>
                         <outlet property="NameAndAgeUser" destination="GLd-JA-cze" id="Qcy-IS-oYg"/>
                     </connections>
@@ -469,10 +472,122 @@
             </objects>
             <point key="canvasLocation" x="2079.7101449275365" y="-8.1521739130434785"/>
         </scene>
-        <!--View Controller-->
+        <!--Navigation Controller-->
+        <scene sceneID="b5t-kf-3G6">
+            <objects>
+                <navigationController id="Zdf-q5-KWh" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="r3U-zJ-aJT">
+                        <rect key="frame" x="0.0" y="20" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.92168372869491577" green="0.34623467922210693" blue="0.3176114559173584" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="vQB-Mr-nRI" kind="relationship" relationship="rootViewController" id="04y-JS-ZO1"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5A8-4F-71e" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2080" y="968"/>
+        </scene>
+        <!--Ambulance-->
+        <scene sceneID="OXu-qU-Olv">
+            <objects>
+                <viewController id="vQB-Mr-nRI" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="m8i-Yl-nk9">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" scrollEnabled="NO" rotateEnabled="NO" pitchEnabled="NO" showsUserLocation="YES" showsBuildings="NO" showsCompass="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YKK-tp-2gD">
+                                <rect key="frame" x="0.0" y="191" width="414" height="545"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </mapView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zIR-fm-pyy">
+                                <rect key="frame" x="39" y="103" width="336" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="CenturyGothic-Bold" family="Century Gothic" pointSize="30"/>
+                                <state key="normal" title="Calling" backgroundImage="ButtonRed"/>
+                                <connections>
+                                    <action selector="SingInButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dkN-0p-zCv"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="Eie-va-DPO"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Ambulance" id="dx2-Ty-TmI"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dIk-mp-At3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3058" y="968"/>
+        </scene>
+        <!--View Appointments-->
+        <scene sceneID="AJD-l4-byE">
+            <objects>
+                <viewController title="View Appointments" id="pFs-bS-ZTM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ziz-n7-Biu">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="672"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Ul0-3w-rfa">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="672"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="51" id="ciz-nu-l83">
+                                        <rect key="frame" x="0.0" y="28" width="414" height="51"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ciz-nu-l83" id="5sU-LK-VOP">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="50.666666666666664"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="8ph-MG-nRT">
+                                        <rect key="frame" x="0.0" y="79" width="414" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="8ph-MG-nRT" id="LqB-Ws-NV6">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.666666666666664"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="G4N-vM-1Zx">
+                                        <rect key="frame" x="0.0" y="123" width="414" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="G4N-vM-1Zx" id="XZZ-wF-qfb">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.666666666666664"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="1ko-Lv-1RJ">
+                                        <rect key="frame" x="0.0" y="167" width="414" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="1ko-Lv-1RJ" id="CiO-1e-1XO">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.666666666666664"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="lmW-vs-Kj3">
+                                        <rect key="frame" x="0.0" y="211" width="414" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="lmW-vs-Kj3" id="loE-Oo-LFe">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.666666666666664"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="ucy-WT-6wu"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aF5-Ii-xhl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3057.971014492754" y="142.66304347826087"/>
+        </scene>
+        <!--Choose Specialist-->
         <scene sceneID="Ng4-DF-wnd">
             <objects>
-                <viewController id="2cm-wd-Nla" sceneMemberID="viewController">
+                <viewController title="Choose Specialist" id="2cm-wd-Nla" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ypV-gm-Mde">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="672"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -505,12 +620,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="01F-PT-lSz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3054" y="-287"/>
+            <point key="canvasLocation" x="3058" y="-709"/>
         </scene>
-        <!--Doctor Info-->
+        <!--Doctor-->
         <scene sceneID="TAx-yR-oIj">
             <objects>
-                <viewController id="oIp-Ih-OmW" customClass="DoctorInfo" customModule="NokiaHUI" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Doctor" id="oIp-Ih-OmW" customClass="DoctorInfo" customModule="NokiaHUI" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="of5-bf-bQU">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="672"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -584,4 +699,7 @@
         <image name="NokiaLogo" width="113" height="33.333332061767578"/>
         <image name="locationLogo" width="10.666666984558105" height="10.666666984558105"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="rdP-yc-Hxq"/>
+    </inferredMetricsTieBreakers>
 </document>
