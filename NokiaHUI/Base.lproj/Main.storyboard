@@ -508,6 +508,7 @@
                                 <state key="normal" title="Calling" backgroundImage="ButtonRed"/>
                                 <connections>
                                     <action selector="SingInButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dkN-0p-zCv"/>
+                                    <segue destination="tBO-5O-sRv" kind="show" id="JtX-uG-7N3"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -700,6 +701,6 @@
         <image name="locationLogo" width="10.666666984558105" height="10.666666984558105"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="rdP-yc-Hxq"/>
+        <segue reference="JtX-uG-7N3"/>
     </inferredMetricsTieBreakers>
 </document>
